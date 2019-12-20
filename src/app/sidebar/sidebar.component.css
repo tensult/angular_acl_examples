@@ -1,0 +1,77 @@
+.side-nav .side-nav-title {
+    padding: 12px 30px;
+    letter-spacing: .05em;
+    pointer-events: none;
+    cursor: default;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    color: #cedce4;
+    font-weight: 700;
+}
+.metismenu {
+    padding-top: 50px;
+}
+.metismenu li {
+    list-style: none;
+}
+.side-nav .side-nav-link {
+    color: #cedce4;
+    display: block;
+    padding: 15px 20px 15px 20px;
+    font-size: .9375rem;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.side-nav .side-nav-link i {
+    display: inline-block;
+    line-height: 1.0625rem;
+    margin: 0 10px 0 3px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+}
+
+
+.side-nav .side-nav-link span {
+    vertical-align: middle;
+}
+.side-nav-level.side-nav .side-nav-link.collapsed{
+    color: #cedce4;
+}
+.side-nav-level.side-nav .side-nav-link{
+    color: #fff;
+}
+.side-nav .side-nav-link:hover , .side-nav .side-nav-link.active , .side-nav-second-level li a.active , .side-nav-second-level li a:hover{
+    color: #fff;
+}
+.side-nav-forth-level li a, .side-nav-second-level li a, .side-nav-third-level li a {
+    padding: 8px 30px 8px 16px;
+    color: #cedce4;
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-size: .89rem;
+}
+.side-nav .menu-arrow {
+    -webkit-transition: -webkit-transform .15s;
+    transition: -webkit-transform .15s;
+    transition: transform .15s;
+    transition: transform .15s,-webkit-transform .15s;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    text-rendering: auto;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    top: 18px;
+}
+.side-nav .side-nav-link .menu-arrow:before {
+    content: "\f107";
+}
+.side-nav .side-nav-link.collapsed .menu-arrow:before {
+    content: "\f105";
+}

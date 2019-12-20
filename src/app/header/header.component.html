@@ -1,0 +1,8 @@
+<div *ngIf="!(router.url === '/login' || router.url === '/')">
+    <div class="tab" *ngFor="let item of allowedResourcesObject | keyvalue">
+        <button routerLink='{{item.value}}' routerLinkActive="active"  class="tablinks">{{ item.key }}</button>
+    </div>
+</div>
+<div  class="tab">
+    <button routerLink='/'   class="tablinks">signout</button>
+</div>

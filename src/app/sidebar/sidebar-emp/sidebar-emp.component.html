@@ -1,0 +1,7 @@
+<div class="left-side-menu" [ngClass]="status ? 'success' : 'danger'" *ngIf="!(router.url === '/home' || router.url === '/')">
+    <ul class="metismenu side-nav mm-show" >
+        <li class="side-nav-item" *ngFor="let item of allowedResourcesObject | keyvalue" >
+           <a  routerLink='/employee/{{item.value}}' routerLinkActive="active" >{{ item.key }}</a> 
+        </li>
+    </ul>
+</div>
